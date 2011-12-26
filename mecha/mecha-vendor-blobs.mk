@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/mecha/proprietary/gps.mecha.so:/system/lib/hw/gps.mecha.so \
     vendor/htc/mecha/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
+    vendor/htc/mecha/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/mecha/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/mecha/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/mecha/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
@@ -61,6 +62,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libdsm.so:/system/lib/libdsm.so \
     vendor/htc/mecha/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/mecha/proprietary/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/mecha/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/mecha/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/mecha/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/mecha/proprietary/libgsdi_exp.so:/system/lib/libgsdi_exp.so \
     vendor/htc/mecha/proprietary/libgstk_exp.so:/system/lib/libgstk_exp.so \
     vendor/htc/mecha/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
