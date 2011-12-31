@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/qcrild:/system/bin/qcrild \
     vendor/htc/mecha/proprietary/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/mecha/proprietary/agps_rm:/system/etc/agps_rm \
-    vendor/htc/mecha/proprietary/gps.mecha.so:/system/lib/hw/gps.mecha.so \
     vendor/htc/mecha/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/mecha/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/mecha/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
