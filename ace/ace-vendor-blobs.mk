@@ -16,14 +16,17 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/htc/ace/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for ace
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/akmd:/system/bin/akmd \
+    vendor/htc/ace/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/ace/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/ace/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/ace/proprietary/logcat2:/system/bin/logcat2 \
+    vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/ace/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
@@ -37,8 +40,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/ace/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/htc/ace/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/ace/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so
+    vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
+    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
