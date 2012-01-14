@@ -16,14 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 
-ifeq ($(TARGET_CAMERA_WRAPPER),)
-
-PRODUCT_COPY_FILES += \
-    vendor/htc/mecha/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/mecha/proprietary/libcamera.so:/system/lib/libcamera.so
-
-endif
-
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so \
