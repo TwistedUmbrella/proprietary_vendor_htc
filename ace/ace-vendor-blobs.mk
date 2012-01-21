@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/ace/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/ace/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/ace/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
+    vendor/htc/ace/proprietary/libOpenSLES.so:/system/lib/libOpenSLES.so \
     vendor/htc/ace/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
