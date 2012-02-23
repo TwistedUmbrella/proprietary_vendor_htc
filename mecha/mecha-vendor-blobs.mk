@@ -18,6 +18,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/mecha/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so \
 
 # All the blobs necessary for mecha
@@ -53,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/mecha/proprietary/libauth.so:/system/lib/libauth.so \
+    vendor/htc/mecha/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/mecha/proprietary/libcm.so:/system/lib/libcm.so \
     vendor/htc/mecha/proprietary/libcm_fusion.so:/system/lib/libcm_fusion.so \
     vendor/htc/mecha/proprietary/libdiag.so:/system/lib/libdiag.so \
