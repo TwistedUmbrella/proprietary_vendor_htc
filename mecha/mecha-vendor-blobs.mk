@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libgstk_exp.so:/system/lib/libgstk_exp.so \
     vendor/htc/mecha/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/mecha/proprietary/libidl.so:/system/lib/libidl.so \
-    vendor/htc/mecha/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/mecha/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/mecha/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/mecha/proprietary/libmmgsdilib.so:/system/lib/libmmgsdilib.so \
