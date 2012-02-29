@@ -41,8 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/btld:/system/bin/btld \
     vendor/htc/mecha/proprietary/qmuxd:/system/bin/qmuxd \
     vendor/htc/mecha/proprietary/qcrild:/system/bin/qcrild \
-    vendor/htc/mecha/proprietary/record:/system/bin/record \
-    vendor/htc/mecha/proprietary/recordvideo:/system/bin/recordvideo \
     vendor/htc/mecha/proprietary/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/mecha/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/mecha/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
@@ -66,8 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/mecha/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/mecha/proprietary/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/mecha/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
-    vendor/htc/mecha/proprietary/libOpenSLES.so:/system/lib/libOpenSLES.so \
     vendor/htc/mecha/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/mecha/proprietary/libgsdi_exp.so:/system/lib/libgsdi_exp.so \
     vendor/htc/mecha/proprietary/libgstk_exp.so:/system/lib/libgstk_exp.so \
@@ -91,15 +87,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libpbmlib_fusion.so:/system/lib/libpbmlib_fusion.so \
     vendor/htc/mecha/proprietary/libpdapi.so:/system/lib/libpdapi.so \
     vendor/htc/mecha/proprietary/libpdsm_atl.so:/system/lib/libpdsm_atl.so \
-    vendor/htc/mecha/proprietary/libqc-opt.so:/system/lib/libqc-opt.so \
     vendor/htc/mecha/proprietary/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/mecha/proprietary/libqueue.so:/system/lib/libqueue.so \
     vendor/htc/mecha/proprietary/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/mecha/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/mecha/proprietary/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
     vendor/htc/mecha/proprietary/libril-qc-1.so:/system/lib/libril-qc-1.so \
-    vendor/htc/mecha/proprietary/libril-qc-qmi-1.so:/system/lib/libril-qc-1.so \
-    vendor/htc/mecha/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/mecha/proprietary/libril.so:/system/lib/libril.so \
     vendor/htc/mecha/proprietary/libril_ims.so:/system/lib/libril_ims.so \
     vendor/htc/mecha/proprietary/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
