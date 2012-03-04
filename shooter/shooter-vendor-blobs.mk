@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/gps.shooter.so:/obj/lib/hw/gps.shooter.so \
     vendor/htc/shooter/proprietary/lights.msm8660.so:/obj/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/obj/lib/hw/sensors.shooter.so \
-    vendor/htc/shooter/proprietary/libaudiocal.so:obj/lib/libaudiocal.so \
+    vendor/htc/shooter/proprietary/libaudcal.so:obj/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 #    vendor/htc/shooter/proprietary/libaudio.so:obj/lib/libaudio.so \
 #    vendor/htc/shooter/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
