@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so \
+    vendor/htc/mecha/proprietary/libv8.so:obj/lib/libv8.so
 
 # All the blobs necessary for mecha
 PRODUCT_COPY_FILES += \
@@ -95,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libril.so:/system/lib/libril.so \
     vendor/htc/mecha/proprietary/libril_ims.so:/system/lib/libril_ims.so \
     vendor/htc/mecha/proprietary/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
+    vendor/htc/mecha/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/mecha/proprietary/libwms.so:/system/lib/libwms.so \
     vendor/htc/mecha/proprietary/libwms_fusion.so:/system/lib/libwms_fusion.so \
     vendor/htc/mecha/proprietary/libwmsts.so:/system/lib/libwmsts.so \
