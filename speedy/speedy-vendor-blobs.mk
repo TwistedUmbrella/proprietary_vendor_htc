@@ -17,7 +17,8 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
+    vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so \
+    vendor/htc/speedy/proprietary/libv8.so:obj/lib/libv8.so
 #    vendor/htc/speedy/proprietary/librpc.so:obj/lib/librpc.so
 #    vendor/htc/speedy/proprietary/libaudio.so:obj/lib/libaudio.so \
 
@@ -46,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/speedy/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/speedy/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
+    vendor/htc/speedy/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
     vendor/htc/speedy/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/lsc_camera:/system/bin/lsc_camera \
