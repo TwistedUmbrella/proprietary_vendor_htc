@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:obj/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
+    vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+    vendor/htc/shooter/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
@@ -83,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/shooter/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/shooter/proprietary/lib/libv8.so:/system/lib/libv8.so \
     vendor/htc/shooter/proprietary/lib/hw/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
