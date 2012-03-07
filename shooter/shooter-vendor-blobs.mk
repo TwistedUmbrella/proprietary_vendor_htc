@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooter/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:obj/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:obj/lib/libaudcalwb.so \
@@ -36,9 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
-    vendor/htc/shooter/proprietary/bin/record:/system/bin/record \
-    vendor/htc/shooter/proprietary/bin/recordvideo:/system/bin/recordvideo \
-    vendor/htc/shooter/proprietary/bin/rild:/system/bin/rild \
     vendor/htc/shooter/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
@@ -86,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-    vendor/htc/shooter/proprietary/lib/libril.so:/system/lib/libril.so \
     vendor/htc/shooter/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/shooter/proprietary/lib/hw/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
