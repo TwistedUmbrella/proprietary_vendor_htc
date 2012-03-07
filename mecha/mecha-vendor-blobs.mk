@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/bin/btld:/system/bin/btld \
     vendor/htc/mecha/system/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/mecha/system/bin/qcrild:/system/bin/qcrild \
-    vendor/htc/mecha/system/bin/wireless_modem:/system/xbin/wireless_modem \
+    vendor/htc/mecha/system/xbin/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/mecha/system/bin/agps_rm:/system/etc/agps_rm \
     vendor/htc/mecha/system/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/mecha/system/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
