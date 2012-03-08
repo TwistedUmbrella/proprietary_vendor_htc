@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/shooter/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
+    vendor/htc/shooter/proprietary/bin/snd3254:/system/bin/snd3254 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
     vendor/htc/shooter/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/shooter/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
@@ -85,15 +86,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/shooter/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/shooter/proprietary/lib/libv8.so:/system/lib/libv8.so \
-    vendor/htc/shooter/proprietary/lib/hw/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
-    vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
     vendor/htc/shooter/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
     vendor/htc/shooter/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/shooter/proprietary/etc/AIC3254_REG_DualMic.csv:system/etc/AIC3254_REG_DualMic.csv \
     vendor/htc/shooter/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
+    vendor/htc/shooter/proprietary/etc/CodecDSPID_WB.txt:system/etc/CodecDSPID_WB.txt \
     vendor/htc/shooter/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
     vendor/htc/shooter/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Beats.txt:system/etc/soundimage/Sound_Beats.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
