@@ -18,9 +18,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/mecha/system/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/mecha/system/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/htc/mecha/system/lib/liboemcamera.so:obj/lib/liboemcamera.so \
     vendor/htc/mecha/system/lib/libril.so:obj/lib/libril.so \
     vendor/htc/mecha/system/lib/libv8.so:obj/lib/libv8.so
 
@@ -55,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/mecha/system/lib/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/mecha/system/lib/libauth.so:/system/lib/libauth.so \
-    vendor/htc/mecha/system/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/mecha/system/lib/libcm.so:/system/lib/libcm.so \
     vendor/htc/mecha/system/lib/libcm_fusion.so:/system/lib/libcm_fusion.so \
     vendor/htc/mecha/system/lib/libdiag.so:/system/lib/libdiag.so \
@@ -72,12 +68,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/lib/libgstk_exp.so:/system/lib/libgstk_exp.so \
     vendor/htc/mecha/system/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/mecha/system/lib/libidl.so:/system/lib/libidl.so \
-    vendor/htc/mecha/system/lib/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/mecha/system/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/mecha/system/lib/libmmgsdilib.so:/system/lib/libmmgsdilib.so \
     vendor/htc/mecha/system/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/mecha/system/lib/libnv.so:/system/lib/libnv.so \
-    vendor/htc/mecha/system/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/mecha/system/lib/liboncrpc.so:/system/lib/liboncrpc.so \
     vendor/htc/mecha/system/lib/liboem_rapi.so:/system/lib/liboem_rapi.so \
     vendor/htc/mecha/system/lib/liboem_rapi_fusion.so:/system/lib/liboem_rapi_fusion.so \
