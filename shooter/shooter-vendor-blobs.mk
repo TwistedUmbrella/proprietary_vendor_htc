@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/CodecDSPID_WB.txt:system/etc/CodecDSPID_WB.txt \
     vendor/htc/shooter/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
     vendor/htc/shooter/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
+    vendor/htc/shooter/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
