@@ -4,7 +4,7 @@ w 30 00 01 # Page Select Register
 w 30 01 08 # Power Configuration Register
 w 30 02 21 # LDO Control Register
 w 30 7b 01 # Reference Power-up Configuration Register
-w 30 0a 33 # Common Mode Control Register
+w 30 0a 3b # Common Mode Control Register
 w 30 00 00 # Page Select Register
 w 30 1b 00 # Audio Interface Setting Register 1
 w 30 3c 00 # DAC Signal Processing Block Control Register
@@ -1596,6 +1596,164 @@ w 30 28 00 # C38 (23:16) DAC Buffer A
 w 30 29 00 # C38 (15:8) DAC Buffer A
 w 30 2a 24 # C38 (7:0) DAC Buffer A
 w 30 2b 00 # C38 Reserved
+w 30 00 3e # Page Select Register
+w 30 08 ff # C0 (23:16) DAC Buffer B
+w 30 09 ff # C0 (15:8) DAC Buffer B
+w 30 0a ff # C0 (7:0) DAC Buffer B
+w 30 0b 00 # C0 Reserved
+w 30 0c 80 # C1 (23:16) DAC Buffer B
+w 30 0d 00 # C1 (15:8) DAC Buffer B
+w 30 0e 00 # C1 (7:0) DAC Buffer B
+w 30 0f 00 # C1 Reserved
+w 30 10 7f # C2 (23:16) DAC Buffer B
+w 30 11 f7 # C2 (15:8) DAC Buffer B
+w 30 12 00 # C2 (7:0) DAC Buffer B
+w 30 13 00 # C2 Reserved
+w 30 14 80 # C3 (23:16) DAC Buffer B
+w 30 15 09 # C3 (15:8) DAC Buffer B
+w 30 16 00 # C3 (7:0) DAC Buffer B
+w 30 17 00 # C3 Reserved
+w 30 18 7f # C4 (23:16) DAC Buffer B
+w 30 19 ef # C4 (15:8) DAC Buffer B
+w 30 1a 00 # C4 (7:0) DAC Buffer B
+w 30 1b 00 # C4 Reserved
+w 30 1c 40 # C5 (23:16) DAC Buffer B
+w 30 1d 00 # C5 (15:8) DAC Buffer B
+w 30 1e 00 # C5 (7:0) DAC Buffer B
+w 30 1f 00 # C5 Reserved
+w 30 20 7f # C6 (23:16) DAC Buffer B
+w 30 21 ff # C6 (15:8) DAC Buffer B
+w 30 22 ff # C6 (7:0) DAC Buffer B
+w 30 23 00 # C6 Reserved
+w 30 24 00 # C7 (23:16) DAC Buffer B
+w 30 25 00 # C7 (15:8) DAC Buffer B
+w 30 26 00 # C7 (7:0) DAC Buffer B
+w 30 27 00 # C7 Reserved
+w 30 28 00 # C8 (23:16) DAC Buffer B
+w 30 29 0d # C8 (15:8) DAC Buffer B
+w 30 2a 00 # C8 (7:0) DAC Buffer B
+w 30 2b 00 # C8 Reserved
+w 30 2c 00 # C9 (23:16) DAC Buffer B
+w 30 2d 1c # C9 (15:8) DAC Buffer B
+w 30 2e 00 # C9 (7:0) DAC Buffer B
+w 30 2f 00 # C9 Reserved
+w 30 30 00 # C10 (23:16) DAC Buffer B
+w 30 31 3e # C10 (15:8) DAC Buffer B
+w 30 32 00 # C10 (7:0) DAC Buffer B
+w 30 33 00 # C10 Reserved
+w 30 34 00 # C11 (23:16) DAC Buffer B
+w 30 35 78 # C11 (15:8) DAC Buffer B
+w 30 36 00 # C11 (7:0) DAC Buffer B
+w 30 37 00 # C11 Reserved
+w 30 38 02 # C12 (23:16) DAC Buffer B
+w 30 39 4c # C12 (15:8) DAC Buffer B
+w 30 3a 00 # C12 (7:0) DAC Buffer B
+w 30 3b 00 # C12 Reserved
+w 30 3c 00 # C13 (23:16) DAC Buffer B
+w 30 3d d5 # C13 (15:8) DAC Buffer B
+w 30 3e 00 # C13 (7:0) DAC Buffer B
+w 30 3f 00 # C13 Reserved
+w 30 40 01 # C14 (23:16) DAC Buffer B
+w 30 41 65 # C14 (15:8) DAC Buffer B
+w 30 42 00 # C14 (7:0) DAC Buffer B
+w 30 43 00 # C14 Reserved
+w 30 44 03 # C15 (23:16) DAC Buffer B
+w 30 45 e9 # C15 (15:8) DAC Buffer B
+w 30 46 00 # C15 (7:0) DAC Buffer B
+w 30 47 00 # C15 Reserved
+w 30 48 07 # C16 (23:16) DAC Buffer B
+w 30 49 ca # C16 (15:8) DAC Buffer B
+w 30 4a 00 # C16 (7:0) DAC Buffer B
+w 30 4b 00 # C16 Reserved
+w 30 4c ff # C17 (23:16) DAC Buffer B
+w 30 4d ef # C17 (15:8) DAC Buffer B
+w 30 4e 00 # C17 (7:0) DAC Buffer B
+w 30 4f 00 # C17 Reserved
+w 30 50 fe # C18 (23:16) DAC Buffer B
+w 30 51 eb # C18 (15:8) DAC Buffer B
+w 30 52 00 # C18 (7:0) DAC Buffer B
+w 30 53 00 # C18 Reserved
+w 30 54 ff # C19 (23:16) DAC Buffer B
+w 30 55 a8 # C19 (15:8) DAC Buffer B
+w 30 56 00 # C19 (7:0) DAC Buffer B
+w 30 57 00 # C19 Reserved
+w 30 58 fd # C20 (23:16) DAC Buffer B
+w 30 59 08 # C20 (15:8) DAC Buffer B
+w 30 5a 00 # C20 (7:0) DAC Buffer B
+w 30 5b 00 # C20 Reserved
+w 30 5c ff # C21 (23:16) DAC Buffer B
+w 30 5d 5e # C21 (15:8) DAC Buffer B
+w 30 5e 00 # C21 (7:0) DAC Buffer B
+w 30 5f 00 # C21 Reserved
+w 30 60 ff # C22 (23:16) DAC Buffer B
+w 30 61 d5 # C22 (15:8) DAC Buffer B
+w 30 62 00 # C22 (7:0) DAC Buffer B
+w 30 63 00 # C22 Reserved
+w 30 64 fe # C23 (23:16) DAC Buffer B
+w 30 65 36 # C23 (15:8) DAC Buffer B
+w 30 66 00 # C23 (7:0) DAC Buffer B
+w 30 67 00 # C23 Reserved
+w 30 68 fa # C24 (23:16) DAC Buffer B
+w 30 69 ac # C24 (15:8) DAC Buffer B
+w 30 6a 00 # C24 (7:0) DAC Buffer B
+w 30 6b 00 # C24 Reserved
+w 30 6c f2 # C25 (23:16) DAC Buffer B
+w 30 6d a3 # C25 (15:8) DAC Buffer B
+w 30 6e 00 # C25 (7:0) DAC Buffer B
+w 30 6f 00 # C25 Reserved
+w 30 70 28 # C26 (23:16) DAC Buffer B
+w 30 71 ab # C26 (15:8) DAC Buffer B
+w 30 72 00 # C26 (7:0) DAC Buffer B
+w 30 73 00 # C26 Reserved
+w 30 74 3f # C27 (23:16) DAC Buffer B
+w 30 75 ff # C27 (15:8) DAC Buffer B
+w 30 76 00 # C27 (7:0) DAC Buffer B
+w 30 77 00 # C27 Reserved
+w 30 78 ff # C28 (23:16) DAC Buffer B
+w 30 79 98 # C28 (15:8) DAC Buffer B
+w 30 7a 00 # C28 (7:0) DAC Buffer B
+w 30 7b 00 # C28 Reserved
+w 30 7c f6 # C29 (23:16) DAC Buffer B
+w 30 7d f9 # C29 (15:8) DAC Buffer B
+w 30 7e 00 # C29 (7:0) DAC Buffer B
+w 30 7f 00 # C29 Reserved
+w 30 00 3f # Page Select Register
+w 30 08 26 # C30 (23:16) DAC Buffer B
+w 30 09 fb # C30 (15:8) DAC Buffer B
+w 30 0a 00 # C30 (7:0) DAC Buffer B
+w 30 0b 00 # C30 Reserved
+w 30 0c 02 # C31 (23:16) DAC Buffer B
+w 30 0d 72 # C31 (15:8) DAC Buffer B
+w 30 0e 00 # C31 (7:0) DAC Buffer B
+w 30 0f 00 # C31 Reserved
+w 30 10 40 # C32 (23:16) DAC Buffer B
+w 30 11 02 # C32 (15:8) DAC Buffer B
+w 30 12 00 # C32 (7:0) DAC Buffer B
+w 30 13 00 # C32 Reserved
+w 30 14 fb # C33 (23:16) DAC Buffer B
+w 30 15 cb # C33 (15:8) DAC Buffer B
+w 30 16 00 # C33 (7:0) DAC Buffer B
+w 30 17 00 # C33 Reserved
+w 30 18 20 # C34 (23:16) DAC Buffer B
+w 30 19 a7 # C34 (15:8) DAC Buffer B
+w 30 1a 00 # C34 (7:0) DAC Buffer B
+w 30 1b 00 # C34 Reserved
+w 30 1c ff # C35 (23:16) DAC Buffer B
+w 30 1d 6a # C35 (15:8) DAC Buffer B
+w 30 1e 00 # C35 (7:0) DAC Buffer B
+w 30 1f 00 # C35 Reserved
+w 30 20 3a # C36 (23:16) DAC Buffer B
+w 30 21 0f # C36 (15:8) DAC Buffer B
+w 30 22 00 # C36 (7:0) DAC Buffer B
+w 30 23 00 # C36 Reserved
+w 30 24 00 # C37 (23:16) DAC Buffer B
+w 30 25 00 # C37 (15:8) DAC Buffer B
+w 30 26 08 # C37 (7:0) DAC Buffer B
+w 30 27 00 # C37 Reserved
+w 30 28 00 # C38 (23:16) DAC Buffer B
+w 30 29 00 # C38 (15:8) DAC Buffer B
+w 30 2a 24 # C38 (7:0) DAC Buffer B
+w 30 2b 00 # C38 Reserved
 w 30 00 98 # Page Select Register
 w 30 08 00 # DAC miniDSP instruction 
 w 30 09 00 # DAC miniDSP instruction 
@@ -2664,14 +2822,17 @@ w 30 51 c2 # ADC Channel Setup Register
 w 30 52 00 # ADC Fine Gain Adjust Register
 w 30 00 08 # Page Select Register
 w 30 01 04 # ADC Adaptive Filter Configuration Register
+w 30 00 2c # Page Select Register
+w 30 01 04 # DAC Adaptive Filter Configuration Register
 w 30 00 00 # Page Select Register
 w 30 52 00 # ADC Fine Gain Adjust Register
 w 30 53 00 # Left ADC Channel Volume Control Register
 w 30 54 00 # Right ADC Channel Volume Control Register
-w 30 00 01 # Page Select Register
-w 30 01 08 # Power Configuration Register
-w 30 02 00 # LDO Control Register
-w 30 00 00 # Page Select Register
+w 30 41 00 # Left DAC Channel Digital Volume Control Register
+w 30 42 00 # Right DAC Channel Digital Volume Control Register
+w 30 44 1f # DRC Control Register 1
+w 30 45 00 # DRC Control Register 2
+w 30 46 c6 # DRC Control Register 3
 w 30 52 00 # ADC Fine Gain Adjust Register
 w 30 53 00 # Left ADC Channel Volume Control Register
 w 30 56 00 # Left Channel AGC Control Register 1
@@ -2689,8 +2850,3 @@ w 30 61 68 # Right Channel AGC Control Register 4
 w 30 62 a8 # Right Channel AGC Control Register 5
 w 30 63 06 # Right Channel AGC Control Register 6
 w 30 64 00 # Right Channel AGC Control Register 7
-w 30 41 00 # Left DAC Channel Digital Volume Control Register
-w 30 42 00 # Right DAC Channel Digital Volume Control Register
-w 30 44 1f # DRC Control Register 1
-w 30 45 00 # DRC Control Register 2
-w 30 46 c6 # DRC Control Register 3
