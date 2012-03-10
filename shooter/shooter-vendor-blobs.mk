@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/shooter/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/shooter/proprietary/bin/snd3254:/system/bin/snd3254 \
+    vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
     vendor/htc/shooter/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/shooter/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
@@ -79,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
+    vendor/htc/shooter/proprietary/lib/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
+    vendor/htc/shooter/proprietary/lib/libOpenSLES.so:/system/lib/libOpenSLES.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
