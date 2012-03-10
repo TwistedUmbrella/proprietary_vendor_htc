@@ -46,8 +46,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/shooter/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:/system/lib/hw/camera.default.so \
-    vendor/htc/shooter/proprietary/lib/hw/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
+    vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
+    vendor/htc/shooter/proprietary/lib/liba2dp.so:/system/lib/liba2dp.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
@@ -93,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/shooter/proprietary/etc/AIC3254_REG_DualMic.csv:system/etc/AIC3254_REG_DualMic.csv \
     vendor/htc/shooter/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
+    vendor/htc/shooter/proprietary/etc/CodecDSPID_WB.txt:system/etc/CodecDSPID_WB.txt \
     vendor/htc/shooter/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
     vendor/htc/shooter/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
@@ -106,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_SPK.txt:system/etc/soundimage/Sound_Phone_Original_SPK.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_mono.txt:system/etc/soundimage/Sound_Rec_mono.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
