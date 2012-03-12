@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/htc/shooter/proprietary/lib/libv8.so:obj/lib/libv8.so \
+    vendor/htc/shooter/proprietary/lib/hw/camera.default.so:obj/lib/camera.default.so
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
@@ -87,34 +88,34 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/shooter/proprietary/lib/libv8.so:/system/lib/libv8.so \
     vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
-    vendor/htc/shooter/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
-    vendor/htc/shooter/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
-    vendor/htc/shooter/proprietary/etc/AIC3254_REG_DualMic.csv:system/etc/AIC3254_REG_DualMic.csv \
-    vendor/htc/shooter/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
-    vendor/htc/shooter/proprietary/etc/CodecDSPID_WB.txt:system/etc/CodecDSPID_WB.txt \
-    vendor/htc/shooter/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
-    vendor/htc/shooter/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
-    vendor/htc/shooter/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original_MFG.txt:system/etc/soundimage/Sound_Original_MFG.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original.txt:system/etc/soundimage/Sound_Phone_Original.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_HP.txt:system/etc/soundimage/Sound_Phone_Original_HP.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_SPK.txt:system/etc/soundimage/Sound_Phone_Original_SPK.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_mono.txt:system/etc/soundimage/Sound_Rec_mono.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Voice_record.txt:system/etc/soundimage/Sound_Rec_Voice_record.txt \
-    vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
-    vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
-    vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
-    vendor/htc/shooter/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
-    vendor/htc/shooter/proprietary/etc/firmware/default_bak.acdb:system/etc/firmware/default_bak.acdb \
-    vendor/htc/shooter/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/htc/shooter/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/htc/shooter/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
+    vendor/htc/shooter/proprietary/etc/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
+    vendor/htc/shooter/proprietary/etc/AIC3254_REG.csv:/system/etc/AIC3254_REG.csv \
+    vendor/htc/shooter/proprietary/etc/AIC3254_REG_DualMic.csv:/system/etc/AIC3254_REG_DualMic.csv \
+    vendor/htc/shooter/proprietary/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
+    vendor/htc/shooter/proprietary/etc/CodecDSPID_WB.txt:/system/etc/CodecDSPID_WB.txt \
+    vendor/htc/shooter/proprietary/etc/CodecDSPID.txt:/system/etc/CodecDSPID.txt \
+    vendor/htc/shooter/proprietary/etc/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
+    vendor/htc/shooter/proprietary/etc/thermald.conf:/system/etc/thermald.conf \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_HP.txt:/system/etc/soundimage/Sound_FM_HP.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_SPK.txt:/system/etc/soundimage/Sound_FM_SPK.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original.txt:/system/etc/soundimage/Sound_Original.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original_MFG.txt:/system/etc/soundimage/Sound_Original_MFG.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original_Recording.txt:/system/etc/soundimage/Sound_Original_Recording.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original_SPK.txt:/system/etc/soundimage/Sound_Original_SPK.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original.txt:/system/etc/soundimage/Sound_Phone_Original.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_HP.txt:/system/etc/soundimage/Sound_Phone_Original_HP.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:/system/etc/soundimage/Sound_Phone_Original_REC.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Phone_Original_SPK.txt:/system/etc/soundimage/Sound_Phone_Original_SPK.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:/system/etc/soundimage/Sound_Rec_Landscape.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_mono.txt:/system/etc/soundimage/Sound_Rec_mono.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Recording.txt:/system/etc/soundimage/Sound_Recording.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:/system/etc/soundimage/Sound_Rec_Portrait.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/Sound_Rec_Voice_record.txt:/system/etc/soundimage/Sound_Rec_Voice_record.txt \
+    vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:/system/etc/soundimage/srsfx_trumedia_51.cfg \
+    vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:/system/etc/soundimage/srsfx_trumedia_movie.cfg \
+    vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:/system/etc/soundimage/srsfx_trumedia_music.cfg \
+    vendor/htc/shooter/proprietary/etc/soundimage/srs_geq10.cfg:/system/etc/soundimage/srs_geq10.cfg \
+    vendor/htc/shooter/proprietary/etc/firmware/default_bak.acdb:/system/etc/firmware/default_bak.acdb \
+    vendor/htc/shooter/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw
