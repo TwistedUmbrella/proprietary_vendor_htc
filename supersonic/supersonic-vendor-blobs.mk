@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/supersonic/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/supersonic/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/supersonic/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/supersonic/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/supersonic/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/supersonic/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
