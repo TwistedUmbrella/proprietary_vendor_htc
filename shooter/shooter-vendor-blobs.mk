@@ -79,8 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
-    vendor/htc/shooter/proprietary/lib/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
-    vendor/htc/shooter/proprietary/lib/libOpenSLES.so:/system/lib/libOpenSLES.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
