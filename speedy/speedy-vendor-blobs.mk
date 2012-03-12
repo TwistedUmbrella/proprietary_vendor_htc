@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/etc/wimax/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/speedy/proprietary/etc/wimax/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
     vendor/htc/speedy/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
+    vendor/htc/speedy/proprietary/lib/hw/gps.speedy.so:/system/lib/hw/gps.speedy.so \
     vendor/htc/speedy/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/lib/libcryp98.so:system/lib/libcryp98.so \
     vendor/htc/speedy/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
