@@ -29,15 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/ace/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
-    vendor/htc/ace/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/htc/ace/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/ace/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/ace/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/ace/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/ace/proprietary/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/ace/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/ace/proprietary/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/ace/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/ace/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
