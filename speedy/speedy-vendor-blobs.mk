@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for speedy
 PRODUCT_COPY_FILES += \
-    vendor/htc/speedy/proprietary/app/NovaLauncher.apk:/system/app/NovaLauncher.apk \
     vendor/htc/speedy/proprietary/bin/akmd:/system/bin/akmd \
     vendor/htc/speedy/proprietary/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/speedy/proprietary/bin/awb_camera:/system/bin/awb_camera \
@@ -74,13 +73,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/speedy/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/speedy/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/speedy/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/speedy/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/speedy/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/speedy/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/speedy/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/speedy/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/htc/speedy/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/speedy/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/speedy/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/speedy/proprietary/lib/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
+    vendor/htc/speedy/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so
