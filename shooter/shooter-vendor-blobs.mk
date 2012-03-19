@@ -16,14 +16,15 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/shooter/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:obj/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:obj/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/lib/libv8.so:obj/lib/libv8.so \
-    vendor/htc/shooter/proprietary/lib/hw/camera.default.so:obj/lib/camera.default.so
+    vendor/htc/shooter/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
@@ -40,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
-    vendor/htc/shooter/proprietary/lib/hw/camera.default.so:/system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/lib/liba2dp.so:/system/lib/liba2dp.so \
@@ -50,10 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:/system/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:/system/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/shooter/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
-    vendor/htc/shooter/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
-    vendor/htc/shooter/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
-    vendor/htc/shooter/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/htc/shooter/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/shooter/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/lib/libdll.so:/system/lib/libdll.so \
