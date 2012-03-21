@@ -12,9 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES += \
+    vendor/htc/supersonic/proprietary/libcamera.so:obj/lib/libcamera.so
+
 # All the blobs necessary for supersonic
 PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/akmd:/system/bin/akmd \
+    vendor/htc/supersonic/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/supersonic/proprietary/snd8k:/system/bin/snd8k \
     vendor/htc/supersonic/proprietary/sound8k:/system/bin/sound8k \
     vendor/htc/supersonic/proprietary/AdieHWCodecSetting.csv:/system/etc/AdieHWCodecSetting.csv \
