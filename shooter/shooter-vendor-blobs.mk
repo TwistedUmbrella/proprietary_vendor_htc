@@ -18,9 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/shooter/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/htc/shooter/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:obj/lib/libaudcal_nel.so \
-    vendor/htc/shooter/proprietary/lib/libaudcalwb.so:obj/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
