@@ -46,6 +46,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:/system/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:/system/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/htc/shooter/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
+    vendor/htc/shooter/proprietary/lib/libcameraLN.so:/system/lib/libcameraLN.so \
+    vendor/htc/shooter/proprietary/lib/libcameraSP.so:/system/lib/libcameraSP.so \
     vendor/htc/shooter/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/shooter/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/lib/libdll.so:/system/lib/libdll.so \
@@ -61,11 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
     vendor/htc/shooter/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/shooter/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
+    vendor/htc/shooter/proprietary/lib/libmmjpeg2.so:obj/lib/libmmjpeg2.so \
     vendor/htc/shooter/proprietary/lib/libmmmpo.so:/system/lib/libmmmpo.so \
     vendor/htc/shooter/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
