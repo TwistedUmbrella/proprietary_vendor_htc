@@ -25,12 +25,14 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/shooter/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/shooter/proprietary/bin/htcbatt:/system/bin/htcbatt \
     vendor/htc/shooter/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shooter/proprietary/bin/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/bin/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/bin/logcat2:/system/bin/logcat2 \
+    vendor/htc/shooter/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
