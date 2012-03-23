@@ -19,7 +19,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/mecha/system/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/mecha/system/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/htc/mecha/system/lib/libril.so:obj/lib/libril.so \
     vendor/htc/mecha/system/lib/libv8.so:obj/lib/libv8.so
 
