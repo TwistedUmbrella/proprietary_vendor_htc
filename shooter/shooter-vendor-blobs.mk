@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/shooter/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+    vendor/htc/shooter/proprietary/bin/snd:/system/bin/snd \
+    vendor/htc/shooter/proprietary/bin/snd8k:/system/bin/snd8k \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
     vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
@@ -43,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
-    vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:/system/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:/system/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
@@ -69,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
