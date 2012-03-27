@@ -23,4 +23,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/pyramid/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/shooter/pyramid/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/shooter/pyramid/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-  vendor/htc/shooter/pyramid/lib/liboemcamera.so:system/lib/liboemcamera.so \
+  vendor/htc/shooter/pyramid/lib/liboemcamera.so:system/lib/liboemcamera.so
