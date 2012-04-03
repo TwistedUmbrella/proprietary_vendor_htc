@@ -16,6 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/pyramid/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
@@ -23,14 +24,20 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooter/proprietary/bin/awb_camera:/system/bin/awb_camera \
+    vendor/htc/shooter/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/htc/shooter/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/htc/shooter/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/shooter/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/shooter/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/htc/shooter/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/htc/shooter/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/htc/shooter/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/shooter/proprietary/bin/htcbatt:/system/bin/htcbatt \
     vendor/htc/shooter/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shooter/proprietary/bin/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/bin/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/bin/logcat2:/system/bin/logcat2 \
-    vendor/htc/shooter/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
