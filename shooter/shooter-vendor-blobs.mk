@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/snd8k:/system/bin/snd8k \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
+    vendor/htc/shooter/proprietary/xbin/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/lib/liba2dp.so:/system/lib/liba2dp.so \
