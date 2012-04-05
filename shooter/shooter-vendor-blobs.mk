@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libidl.so:/system/lib/libidl.so \
     vendor/htc/shooter/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
     vendor/htc/shooter/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
-    vendor/htc/shooter/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
     vendor/htc/shooter/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
