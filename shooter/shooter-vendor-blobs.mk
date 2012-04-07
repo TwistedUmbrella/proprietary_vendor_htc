@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/snd8k:/system/bin/snd8k \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
-    vendor/htc/shooter/proprietary/xbin/wireless_modem:/system/xbin/wireless_modem \
+    vendor/htc/shooter/proprietary/bin/wireless_modem:/system/bin/wireless_modem \
     vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/lib/liba2dp.so:/system/lib/liba2dp.so \
@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+    vendor/htc/shooter/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
@@ -102,4 +103,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:/system/etc/soundimage/srsfx_trumedia_51.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:/system/etc/soundimage/srsfx_trumedia_movie.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:/system/etc/soundimage/srsfx_trumedia_music.cfg \
-    vendor/htc/shooter/proprietary/etc/soundimage/srs_geq10.cfg:/system/etc/soundimage/srs_geq10.cfg
+    vendor/htc/shooter/proprietary/etc/soundimage/srs_geq10.cfg:/system/etc/soundimage/srs_geq10.cfg \
+    vendor/htc/shooter/proprietary/apph:/system/bin/apph \
+    vendor/htc/shooter/proprietary/bin/sequansd:/system/bin/sequansd \
+    vendor/htc/shooter/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
+\
+    vendor/htc/shooter/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface
+    vendor/htc/shooter/proprietary/bin/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
+    vendor/htc/shooter/proprietary/bin/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
+    vendor/htc/shooter/proprietary/bin/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
+    vendor/htc/shooter/proprietary/bin/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
+    vendor/htc/shooter/proprietary/bin/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
+    vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
+    vendor/htc/shooter/proprietary/bin/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
+    vendor/htc/shooter/proprietary/bin/wimax_mtd:/system/bin/wimax_mtd \
+    vendor/htc/shooter/proprietary/bin/wimax_uart:/system/bin/wimax_uart \
+    vendor/htc/shooter/proprietary/etc/wimax/sequansd/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
+    vendor/htc/shooter/proprietary/etc/wimax/sequansd/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
+    vendor/htc/shooter/proprietary/etc/wimax/dhcp/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
+    vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar
