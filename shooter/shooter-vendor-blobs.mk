@@ -107,8 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/apph:/system/bin/apph \
     vendor/htc/shooter/proprietary/bin/sequansd:/system/bin/sequansd \
     vendor/htc/shooter/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
-\
-    vendor/htc/shooter/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface
+    vendor/htc/shooter/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
     vendor/htc/shooter/proprietary/bin/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
     vendor/htc/shooter/proprietary/bin/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
     vendor/htc/shooter/proprietary/bin/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
