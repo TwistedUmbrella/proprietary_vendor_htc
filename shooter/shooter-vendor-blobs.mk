@@ -104,7 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:/system/etc/soundimage/srsfx_trumedia_movie.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:/system/etc/soundimage/srsfx_trumedia_music.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srs_geq10.cfg:/system/etc/soundimage/srs_geq10.cfg \
-    vendor/htc/shooter/proprietary/apph:/system/bin/apph \
+    vendor/htc/shooter/proprietary/bin/apph:/system/bin/apph \
     vendor/htc/shooter/proprietary/bin/sequansd:/system/bin/sequansd \
     vendor/htc/shooter/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/shooter/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
