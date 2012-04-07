@@ -19,8 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
@@ -75,8 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-    vendor/htc/shooter/proprietary/lib/libv8.so:/system/lib/libv8.so \
-    vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
     vendor/htc/shooter/proprietary/etc/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/shooter/proprietary/etc/AIC3254_REG.csv:/system/etc/AIC3254_REG.csv \
     vendor/htc/shooter/proprietary/etc/AIC3254_REG_DualMic.csv:/system/etc/AIC3254_REG_DualMic.csv \
