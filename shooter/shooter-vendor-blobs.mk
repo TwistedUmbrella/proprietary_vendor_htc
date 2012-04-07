@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
     vendor/htc/shooter/proprietary/bin/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
     vendor/htc/shooter/proprietary/bin/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
-    vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
     vendor/htc/shooter/proprietary/bin/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
     vendor/htc/shooter/proprietary/bin/wimax_mtd:/system/bin/wimax_mtd \
     vendor/htc/shooter/proprietary/bin/wimax_uart:/system/bin/wimax_uart \
