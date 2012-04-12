@@ -36,14 +36,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/bin/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/bin/logcat2:/system/bin/logcat2 \
-    vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/shooter/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/shooter/proprietary/bin/snd:/system/bin/snd \
     vendor/htc/shooter/proprietary/bin/snd8k:/system/bin/snd8k \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
-    vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
     vendor/htc/shooter/proprietary/bin/wireless_modem:/system/bin/wireless_modem \
     vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
