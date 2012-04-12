@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:/system/lib/libaudcalwb.so \
+    vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:system/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/shooter/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
