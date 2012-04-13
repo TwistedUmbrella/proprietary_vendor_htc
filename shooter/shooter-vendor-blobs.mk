@@ -115,4 +115,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/wimax/sequansd/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
     vendor/htc/shooter/proprietary/etc/wimax/sequansd/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/shooter/proprietary/etc/wimax/dhcp/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
-    vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar
+    vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
+    vendor/htc/shooter/proprietary/app/vtt-sprint.apk:/system/app/vtt-sprint.apk

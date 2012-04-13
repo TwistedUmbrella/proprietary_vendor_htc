@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/system/etc/wimax/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/supersonic/proprietary/system/etc/wimax/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
     vendor/htc/supersonic/proprietary/system/framework/wimax-api.jar:/system/framework/wimax-api.jar \
+    vendor/htc/supersonic/proprietary/system/app/vtt-sprint.apk:/system/app/vtt-sprint.apk \
     vendor/htc/supersonic/proprietary/system/lib/fr/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/supersonic/proprietary/system/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/supersonic/proprietary/system/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
