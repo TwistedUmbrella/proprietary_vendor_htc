@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooter/proprietary/bin/apph:/system/bin/apph \
     vendor/htc/shooter/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
+    vendor/htc/shooter/proprietary/bin/charging:/system/bin/charging \
     vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
     vendor/htc/shooter/proprietary/bin/htcbatt:/system/bin/htcbatt \
     vendor/htc/shooter/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/wimax_uart:/system/bin/wimax_uart \
     vendor/htc/shooter/proprietary/bin/wireless_modem:/system/bin/wireless_modem \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
-    vendor/htc/shooter/proprietary/lib/hw/lights.shooter.so:/system/lib/hw/lights.shooter.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/lib/liba2dp.so:/system/lib/liba2dp.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
