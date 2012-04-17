@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
     vendor/htc/shooter/proprietary/bin/htcbatt:/system/bin/htcbatt \
     vendor/htc/shooter/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
+    vendor/htc/shooter/proprietary/bin/ipd:/system/bin/ipd \
     vendor/htc/shooter/proprietary/bin/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/bin/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/bin/logcat2:/system/bin/logcat2 \
