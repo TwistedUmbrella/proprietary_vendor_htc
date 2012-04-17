@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/proprietary/bin/apph:/system/bin/apph \
     vendor/htc/shooter/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/shooter/proprietary/bin/charging:/system/bin/charging \
     vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
