@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/shooter/proprietary/bin/charging:/system/bin/charging \
     vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
+    vendor/htc/shooter/proprietary/bin/hdmid:/system/bin/hdmid \
     vendor/htc/shooter/proprietary/bin/htcbatt:/system/bin/htcbatt \
     vendor/htc/shooter/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shooter/proprietary/bin/ipd:/system/bin/ipd \
