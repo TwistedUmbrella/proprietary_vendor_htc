@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
+    vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+    vendor/htc/shooter/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
@@ -63,10 +64,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudcalwb.so:/system/lib/libaudcalwb.so \
     vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:system/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/shooter/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/htc/shooter/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/shooter/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/shooter/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/shooter/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/htc/shooter/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/shooter/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/shooter/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/lib/libdll.so:/system/lib/libdll.so \
