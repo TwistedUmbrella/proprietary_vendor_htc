@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/bin/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/bin/logcat2:/system/bin/logcat2 \
+    vendor/htc/shooter/proprietary/bin/mm-abl-daemon:/system/bin/mm-abl-daemon \
+    vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/shooter/proprietary/bin/record:/system/bin/record \
@@ -41,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/sequansd:/system/bin/sequansd \
     vendor/htc/shooter/proprietary/bin/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
     vendor/htc/shooter/proprietary/bin/sound8x60:/system/bin/sound8x60 \
+    vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
     vendor/htc/shooter/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/shooter/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
     vendor/htc/shooter/proprietary/bin/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
@@ -93,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/shooter/proprietary/etc/CodecDSPID.txt:/system/etc/CodecDSPID.txt \
     vendor/htc/shooter/proprietary/etc/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
+    vendor/htc/shooter/proprietary/etc/thermald.conf:/system/etc/thermald.conf \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_HP.txt:/system/etc/soundimage/Sound_FM_HP.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_FM_SPK.txt:/system/etc/soundimage/Sound_FM_SPK.txt \
     vendor/htc/shooter/proprietary/etc/soundimage/Sound_Original.txt:/system/etc/soundimage/Sound_Original.txt \
