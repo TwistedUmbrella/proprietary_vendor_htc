@@ -28,16 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/vivo/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/vivo/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
-    vendor/htc/vivo/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/htc/vivo/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/vivo/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
-    vendor/htc/vivo/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/vivo/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/vivo/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/vivo/proprietary/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/vivo/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/vivo/proprietary/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/vivo/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/vivo/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivo/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/vivo/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
