@@ -65,8 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/shooter/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-    vendor/htc/shooter/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/htc/shooter/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/shooter/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/shooter/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/lib/libdll.so:/system/lib/libdll.so \
@@ -77,14 +75,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/shooter/proprietary/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
     vendor/htc/shooter/proprietary/lib/libidl.so:/system/lib/libidl.so \
-    vendor/htc/shooter/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
     vendor/htc/shooter/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
+    vendor/htc/shooter/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/htc/shooter/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/shooter/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/shooter/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/shooter/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
+    vendor/htc/shooter/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+    vendor/htc/shooter/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
+    vendor/htc/shooter/proprietary/lib/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
+    vendor/htc/shooter/proprietary/lib/libOpenSLES.so:/system/lib/libOpenSLES.so \
+    vendor/htc/shooter/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
