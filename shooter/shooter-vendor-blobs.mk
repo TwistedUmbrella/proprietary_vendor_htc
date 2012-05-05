@@ -21,10 +21,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so
 
+
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/apph:/system/bin/apph \
+    vendor/htc/shooter/proprietary/bin/awb_camera:/system/bin/awb_camera \
+    vendor/htc/shooter/proprietary/bin/awb_camera_main:/system/bin/awb_camera_main \
     vendor/htc/shooter/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
+    vendor/htc/shooter/proprietary/bin/cam_ins_spmo:/system/bin/cam_ins_spmo \
     vendor/htc/shooter/proprietary/bin/charging:/system/bin/charging \
     vendor/htc/shooter/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
     vendor/htc/shooter/proprietary/bin/hdmid:/system/bin/hdmid \
@@ -35,6 +39,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/shooter/proprietary/bin/mm-abl-daemon:/system/bin/mm-abl-daemon \
+    vendor/htc/shooter/proprietary/bin/mm-jps-enc-test:/system/bin/mm-jps-enc-test \
+    vendor/htc/shooter/proprietary/bin/mm-mpo-enc-test:/system/bin/mm-mpo-enc-test \
+    vendor/htc/shooter/proprietary/bin/mmcamera_test:/system/bin/mmcamera_test \
+    vendor/htc/shooter/proprietary/bin/mmcamera_test_main:/system/bin/mmcamera_test_main \
     vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/bin/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/bin/qmuxd:/system/bin/qmuxd \
@@ -47,11 +55,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/thermald:/system/bin/thermald \
     vendor/htc/shooter/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/shooter/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
+    vendor/htc/shooter/proprietary/bin/wimaxDaemon:/system/bin/wimaxDaemon \
     vendor/htc/shooter/proprietary/bin/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
     vendor/htc/shooter/proprietary/bin/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
     vendor/htc/shooter/proprietary/bin/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
     vendor/htc/shooter/proprietary/bin/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
     vendor/htc/shooter/proprietary/bin/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
+    vendor/htc/shooter/proprietary/bin/wimaxFactoryReset:/system/bin/wimaxFactoryReset \
     vendor/htc/shooter/proprietary/bin/wimax_mtd:/system/bin/wimax_mtd \
     vendor/htc/shooter/proprietary/bin/wimax_uart:/system/bin/wimax_uart \
     vendor/htc/shooter/proprietary/bin/wireless_modem:/system/bin/wireless_modem \
@@ -65,6 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/shooter/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/shooter/proprietary/lib/libcameraLN.so:system/lib/libcameraLN.so \
+    vendor/htc/shooter/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/htc/shooter/proprietary/lib/libcameraSP.so:system/lib/libcameraSP.so \
+    vendor/htc/shooter/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/shooter/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/shooter/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/lib/libdll.so:/system/lib/libdll.so \
@@ -81,14 +95,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/shooter/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/shooter/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/htc/shooter/proprietary/lib/libmmjpeg2.so:system/lib/libmmjpeg2.so \
+    vendor/htc/shooter/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+
+    vendor/htc/shooter/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/htc/shooter/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
     vendor/htc/shooter/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+    vendor/htc/shooter/proprietary/lib/libpower.so:/system/lib/libpower.so \
+    vendor/htc/shooter/proprietary/lib/libpowermanager.so:/system/lib/libpowermanager.so \
     vendor/htc/shooter/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/shooter/proprietary/lib/liboemcamera_main.so:system/lib/liboemcamera_main.so \
     vendor/htc/shooter/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/shooter/proprietary/lib/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
     vendor/htc/shooter/proprietary/lib/libOpenSLES.so:/system/lib/libOpenSLES.so \
-    vendor/htc/shooter/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
     vendor/htc/shooter/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
@@ -123,5 +143,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/wimax/sequansd/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
     vendor/htc/shooter/proprietary/etc/wimax/sequansd/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/shooter/proprietary/etc/wimax/dhcp/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
-    vendor/htc/shooter/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
+    vendor/htc/shooter/proprietary/framework/wimax.jar:/system/framework/wimax.jar \
     vendor/htc/shooter/proprietary/app/vtt-sprint.apk:/system/app/vtt-sprint.apk
+
+# Prebuilt Adreno 220 libraries
+PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
+    vendor/htc/shooter/proprietary/etc/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
+    vendor/htc/shooter/proprietary/lib/egl/egl.cfg:/system/lib/egl/egl.cfg \
+    vendor/htc/shooter/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    vendor/htc/shooter/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/shooter/proprietary/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
+    vendor/htc/shooter/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/htc/shooter/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/shooter/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/shooter/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/shooter/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/shooter/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/htc/shooter/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
