@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/mm-abl-daemon:/system/bin/mm-abl-daemon \
     vendor/htc/shooter/proprietary/bin/mm-jps-enc-test:/system/bin/mm-jps-enc-test \
     vendor/htc/shooter/proprietary/bin/mm-mpo-enc-test:/system/bin/mm-mpo-enc-test \
+    vendor/htc/shooter/proprietary/bin/mm-qcamera-main-testsuite-client:/system/bin/mm-qcamera-main-testsuite-client \
+    vendor/htc/shooter/proprietary/bin/mm-qcamera-main-testsuite-client-awb:/system/bin/mm-qcamera-main-testsuite-client-awb \
+    vendor/htc/shooter/proprietary/bin/mm-qcamera-testsuite-client:/system/bin/mm-qcamera-testsuite-client \
+    vendor/htc/shooter/proprietary/bin/mm-qcamera-testsuite-client-awb:/system/bin/mm-qcamera-testsuite-client-awb \
     vendor/htc/shooter/proprietary/bin/mmcamera_test:/system/bin/mmcamera_test \
     vendor/htc/shooter/proprietary/bin/mmcamera_test_main:/system/bin/mmcamera_test_main \
     vendor/htc/shooter/proprietary/bin/mpdecision:/system/bin/mpdecision \
@@ -97,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/shooter/proprietary/lib/libmmjpeg2.so:system/lib/libmmjpeg2.so \
     vendor/htc/shooter/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-
     vendor/htc/shooter/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/htc/shooter/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
