@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so
 
@@ -86,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/wireless_modem:/system/bin/wireless_modem \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
+    vendor/htc/shooter/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
