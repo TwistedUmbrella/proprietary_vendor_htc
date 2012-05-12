@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/shooter/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so
 
@@ -87,11 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/bin/wireless_modem:/system/bin/wireless_modem \
     vendor/htc/shooter/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
-    vendor/htc/shooter/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
-    vendor/htc/shooter/proprietary/lib/libaudcalwb.so:/system/lib/libaudcalwb.so \
-    vendor/htc/shooter/proprietary/lib/libaudcal_nel.so:system/lib/libaudcal_nel.so \
     vendor/htc/shooter/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/shooter/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
@@ -157,7 +153,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:/system/etc/soundimage/srsfx_trumedia_51.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:/system/etc/soundimage/srsfx_trumedia_movie.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:/system/etc/soundimage/srsfx_trumedia_music.cfg \
+    vendor/htc/shooter/proprietary/etc/soundimage/srs_bypass.cfg:/system/etc/soundimage/srs_bypass.cfg \
     vendor/htc/shooter/proprietary/etc/soundimage/srs_geq10.cfg:/system/etc/soundimage/srs_geq10.cfg \
+    vendor/htc/shooter/proprietary/etc/soundimage/srs_global.cfg:/system/etc/soundimage/srs_global.cfg \
     vendor/htc/shooter/proprietary/etc/wimax/sequansd/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
     vendor/htc/shooter/proprietary/etc/wimax/sequansd/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/shooter/proprietary/etc/wimax/dhcp/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
