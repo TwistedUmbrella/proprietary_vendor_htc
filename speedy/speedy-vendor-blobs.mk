@@ -73,5 +73,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/speedy/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/speedy/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/speedy/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/speedy/proprietary/app/vtt-sprint.apk:/system/app/vtt-sprint.apk
+    vendor/htc/speedy/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so
