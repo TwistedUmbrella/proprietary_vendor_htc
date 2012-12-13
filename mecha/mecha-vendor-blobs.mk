@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/mecha/system/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/mecha/system/bin/netmgrd:/system/bin/netmgrd \
+    vendor/htc/mecha/system/bin/netsharing:/system/bin/netsharing \
     vendor/htc/mecha/system/bin/rild_ims:/system/bin/rild_ims \
     vendor/htc/mecha/system/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/mecha/system/bin/snd3254:/system/bin/snd3254 \
@@ -45,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/system/bin/btld:/system/bin/btld \
     vendor/htc/mecha/system/bin/qmuxd:/system/bin/qmuxd \
     vendor/htc/mecha/system/bin/qcrild:/system/bin/qcrild \
+    vendor/htc/mecha/system/bin/udhcpd:/system/bin/udhcpd \
     vendor/htc/mecha/system/xbin/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/mecha/system/bin/agps_rm:/system/etc/agps_rm \
     vendor/htc/mecha/system/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
