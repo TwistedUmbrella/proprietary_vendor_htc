@@ -20,7 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/mecha/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/mecha/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/mecha/proprietary/bin/rmt_storage:/system/bin/rmt_storage
+    vendor/htc/mecha/proprietary/bin/netsharing:/system/bin/netsharing \
+    vendor/htc/mecha/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+    vendor/htc/mecha/proprietary/bin/udhcpd:/system/bin/udhcpd \
+    vendor/htc/mecha/proprietary/xbin/wireless_modem:/system/xbin/wireless_modem
 
 # camera libs
 PRODUCT_COPY_FILES += \
