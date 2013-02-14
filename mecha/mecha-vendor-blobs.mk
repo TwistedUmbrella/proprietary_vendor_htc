@@ -1,13 +1,11 @@
 # exports
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/lib/libril.so:obj/lib/libril.so \
-    vendor/htc/mecha/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/mecha/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # audio
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/bin/snd3254:/system/bin/snd3254 \
-    vendor/htc/mecha/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/mecha/proprietary/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/mecha/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so
@@ -16,9 +14,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/bin/akmd:/system/bin/akmd \
     vendor/htc/mecha/proprietary/bin/logcat2:/system/bin/logcat2 \
-    vendor/htc/mecha/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/mecha/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
-    vendor/htc/mecha/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/mecha/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/mecha/proprietary/bin/netsharing:/system/bin/netsharing \
     vendor/htc/mecha/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
@@ -29,8 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/mecha/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/mecha/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
-    vendor/htc/mecha/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/mecha/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so
 
 # drm libs
